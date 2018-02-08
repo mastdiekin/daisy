@@ -1,0 +1,616 @@
+---
+title: daisy
+---
+{% extends "app/pages/layout/_main.html" %}
+
+
+{% block content %}
+<!-- begin hero -->
+<header class="hero">
+	<div class="hero__bg" style="background-image: url('images/hero.jpg');"></div>
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin hero__top -->
+		<div class="hero__top">
+			<!-- begin row -->
+			<div class="row d-flex align-items-center">
+				<div class="col-sm-2">
+					<a href="#" class="hero__logo"></a>
+				</div>
+				<div class="col-sm-10">
+					<nav>
+						<ul class="hero__menu">
+							<li><a class="is-active" href="#">About</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+						<button class="hero__mobile">
+							<span></span><span></span>
+						</button>
+					</nav>
+				</div>
+			</div>
+			<!-- end row -->
+		</div>
+		<!-- end hero__top -->
+		<!-- begin hero__bottom -->
+		<div class="hero__bottom">
+			<div class="hero__title">
+				<span>Clients</span> in your business
+			</div>
+			<p>
+				Your clients on the internet. Learn how to receive them.
+			</p>
+			<a href="#" class="btn btn__inline btn__transparent">I want clients</a>
+			<div class="hero__mouse">
+				<a href="#" class="mouse">
+					{{mixins.svg('mouse')}}
+				</a>
+			</div>
+		</div>
+		<!-- end hero__bottom -->
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor fill"></a>
+</header>
+<!-- end hero -->
+<!-- begin receive -->
+<section class="s receive">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				What can <span>you receive</span>
+			</div>
+			<div class="main__info">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quisquam labore molestiae amet deleniti consequuntur, quos mollitia ut dolores, est aut a ducimus iste voluptas fugit beatae ipsam. Obcaecati, consequatur.
+				</p>
+			</div>
+		</div>
+		<!-- end row -->
+		<!-- begin row -->
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<div class="receive__item">
+					<div class="receive__icon hex__icon-border ">
+						<div class="hex__icon">
+							<span class="icon rocket">
+								{{mixins.svg('rocket')}}
+							</span>
+						</div>
+					</div>
+					<div class="receive__title">
+						Clients
+					</div>
+					<p class="section__info">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quidem atque facere libero, laboriosam amet iste aut ab est dicta temporibus rem, esse saepe, repudiandae aperiam assumenda a, quis excepturi.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="receive__item">
+					<div class="receive__icon hex__icon-border ">
+						<div class="hex__icon">
+							<span class="icon monitor">
+								{{mixins.svg('monitor')}}
+							</span>
+						</div>
+					</div>
+					<div class="receive__title">
+						Branding
+					</div>
+					<p class="section__info">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quidem atque facere libero, laboriosam amet iste aut ab est dicta temporibus rem, esse saepe, repudiandae aperiam assumenda a, quis excepturi.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="receive__item">
+					<div class="receive__icon hex__icon-border ">
+						<div class="hex__icon">
+							<span class="icon radio">
+								{{mixins.svg('radio')}}
+							</span>
+						</div>
+					</div>
+					<div class="receive__title">
+						Marketing
+					</div>
+					<p class="section__info">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quidem atque facere libero, laboriosam amet iste aut ab est dicta temporibus rem, esse saepe, repudiandae aperiam assumenda a, quis excepturi.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="receive__item">
+					<div class="receive__icon hex__icon-border">
+						<div class="hex__icon">
+							<span class="icon alarm">
+								{{mixins.svg('alarm')}}
+							</span>
+						</div>
+					</div>
+					<div class="receive__title">
+						Adv.
+					</div>
+					<p class="section__info">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quidem atque facere libero, laboriosam amet iste aut ab est dicta temporibus rem, esse saepe, repudiandae aperiam assumenda a, quis excepturi.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+</section>
+<!-- end receive -->
+<!-- begin expand -->
+<section class="s expand" style="background-image: url('images/expand.jpg');">
+	<!-- begin container -->
+	<div class="container">
+		<div class="expand__border"></div>
+		<div class="expand__title">
+			<span>Expand</span> your business
+		</div>
+		<a href="#" class="btn btn__inline btn__transparent btn__big">Join Us</a>
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor fill"></a>
+</section>
+<!-- end expand -->
+<!-- begin process -->
+<section class="s process">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				Our <span>process</span>
+			</div>
+			<div class="main__info">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eveniet earum illo eaque, autem debitis nulla, officia quibusdam quam. Tempora asperiores fugiat nostrum id explicabo voluptas et ab, deserunt itaque?
+				</p>
+			</div>
+		</div>
+		<!-- end row -->
+		<!-- begin row -->
+		<div class="row">
+			<!-- begin process__wrapper -->
+			<div class="process__wrapper">
+				<!-- begin process__items -->
+				<div class="process__items">
+					<div class="process__item small step1">
+						<div class="process__icon idea">
+							{{mixins.svg('idea')}}
+						</div>
+						<div class="process__title">
+							Step <span>1</span>
+						</div>
+						<div class="process__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, voluptatem!
+						</div>
+					</div>
+					<div class="process__item small step2">
+						<div class="process__icon tv">
+							{{mixins.svg('graph')}}
+						</div>
+						<div class="process__title">
+							Step <span>2</span>
+						</div>
+						<div class="process__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, in?
+						</div>
+					</div>
+					<div class="process__item small step3">
+						<div class="process__icon head">
+							{{mixins.svg('brain')}}
+						</div>
+						<div class="process__title">
+							Step <span>3</span>
+						</div>
+						<div class="process__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, est!
+						</div>
+					</div>
+					<div class="process__item big step4">
+						<div class="process__icon like">
+							{{mixins.svg('like')}}
+						</div>
+						<div class="process__icon rocket">
+							{{mixins.svg('rocket')}}
+						</div>
+						<div class="process__title">
+							Step <span>4</span>
+						</div>
+						<div class="process__text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, numquam.
+						</div>
+					</div>
+					<div class="image hexagon" style="background-image: url('images/step-image.jpg');">
+						<div class="hexTop"></div>
+						<div class="hexBottom"></div>
+					</div>
+				</div>
+				<!-- end process__items -->
+			</div>
+			<!-- end process__wrapper -->
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor transparent"></a>
+</section>
+<!-- end process -->
+<!-- begin wedo -->
+<section class="s wedo">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				What do <span>we do?</span>
+			</div>
+		</div>
+		<!-- end row -->
+		<!-- begin row -->
+		<div class="row">
+			<div class="col-sm-5 order-sm-1 order-2">
+				<div class="wedo__title section__title stripe__left">Landing pages</div>
+				<div class="section__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur vero officia rerum, eligendi soluta labore dolor eos exercitationem reprehenderit asperiores.</div>
+				<a href="#" class="btn btn__inline btn__fill more__details">More details</a>
+			</div>
+			<div class="col-sm-7 order-sm-2 order-1">
+				<div class="wedo__monitors">
+					<div class="wedo__ipad">
+						<img src="images/ipad.png" alt="">
+					</div>
+					<div class="wedo__macbook">
+						<img src="images/macbook.png" alt="">
+					</div>
+					<div class="wedo__display">
+						<img src="images/display.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor transparent"></a>
+</section>
+<!-- end wedo -->
+<!-- begin adv -->
+<section class="s adv">
+<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				What do <span>we do?</span>
+			</div>
+		</div>
+		<!-- end row -->
+		<!-- begin row -->
+		<div class="row">
+			<div class="col-sm-7">
+				<div class="adv__monitor">
+					<img src="images/adv.png" alt="">
+				</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="adv__title section__title stripe__right">advertising</div>
+				<div class="section__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur vero officia rerum, eligendi soluta labore dolor eos exercitationem reprehenderit asperiores.</div>
+				<a href="#" class="btn btn__inline btn__fill more__details">More details</a>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor transparent"></a>
+</section>
+<!-- end adv -->
+<!-- begin marketing -->
+<section class="s marketing">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				What do <span>we do?</span>
+			</div>
+		</div>
+		<!-- end row -->
+		<!-- begin row -->
+		<div class="row">
+			<div class="col-sm-5 order-sm-1 order-2">
+				<div class="marketing__title section__title stripe__left">Marketing kit</div>
+				<div class="section__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur vero officia rerum, eligendi soluta labore dolor eos exercitationem reprehenderit asperiores.</div>
+				<a href="#" class="btn btn__inline btn__fill more__details">More details</a>
+			</div>
+			<div class="col-sm-7 order-sm-2 order-1">
+				<div class="marketing__book">
+					<img src="images/book.png" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor transparent"></a>
+</section>
+<!-- end marketing -->
+<!-- begin portfolio -->
+<section class="s portfolio">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				Portfolio
+			</div>
+		</div>
+		<!-- end row -->
+		<div class="portfolio__pagination">
+			<nav>
+				<a data-filter="all" href="#" class="is-active">All</a>
+				<a data-filter=".entertainment" href="#">Entertainment</a>
+				<a data-filter=".sport" href="#">Sport</a>
+				<a data-filter=".business" href="#">Business</a>
+				<a data-filter=".building" href="#">Building</a>
+			</nav>
+		</div>
+		<!-- begin row -->
+		<div class="row portfolio__shuffle">
+			<div class="mix entertainment col-sm-6">
+				<a href="#" class="portfolio__item">
+					<span class="portfolio__image" style="background-image: url('images/portfolio1.jpg');"></span>
+					<span class="portfolio__title">
+						Mountain bikes
+					</span>
+				</a>
+			</div>
+			<div class="mix entertainment col-sm-3">
+				<a href="#" class="portfolio__item">
+					<span class="portfolio__image" style="background-image: url('images/portfolio2.jpg');"></span>
+					<span class="portfolio__title">
+						Mountain bikes
+					</span>
+				</a>
+			</div>
+			<div class="mix business col-sm-3">
+				<a href="#" class="portfolio__item">
+					<span class="portfolio__image" style="background-image: url('images/portfolio3.jpg');"></span>
+					<span class="portfolio__title">
+						Mountain bikes
+					</span>
+				</a>
+			</div>
+			<div class="col-100"></div>
+			<div class="mix building col-sm-3">
+				<a href="#" class="portfolio__item">
+					<span class="portfolio__image" style="background-image: url('images/portfolio4.jpg');"></span>
+					<span class="portfolio__title">
+						Mountain bikes
+					</span>
+				</a>
+			</div>
+			<div class="mix business col-sm-3">
+				<a href="#" class="portfolio__item">
+					<span class="portfolio__image" style="background-image: url('images/portfolio5.jpg');"></span>
+					<span class="portfolio__title">
+						Mountain bikes
+					</span>
+				</a>
+			</div>
+			<div class="mix sport col-sm-6">
+				<a href="#" class="portfolio__item">
+					<span class="portfolio__image" style="background-image: url('images/portfolio6.jpg');"></span>
+					<span class="portfolio__title">
+						Mountain bikes
+					</span>
+				</a>
+			</div>
+		</div>
+		<!-- end row -->
+		<a href="#" class="btn btn__inline btn__fill">I want landing page</a>
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor transparent"></a>
+</section>
+<!-- end portfolio -->
+<!-- begin team -->
+<section class="s team">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<div class="main__title">
+				Our <span>team</span>
+			</div>
+		</div>
+		<!-- end row -->
+		<!-- begin row -->
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="team__item">
+					<div class="team__photo" style="background-image: url(images/photo1.jpg);">
+						<div class="hexTop"></div>
+						<div class="hexBottom"></div>
+					</div>
+					<div class="team__name">
+						<span>Tomothy</span> Bowma
+					</div>
+					<div class="team__position">
+						Marketing
+					</div>
+					<ul class="team__social">
+						<li><a class="twitter" href="#">{{mixins.svg('twitter')}}</a></li>
+						<li><a class="facebook" href="#">{{mixins.svg('facebook')}}</a></li>
+						<li><a class="linkedin" href="#">{{mixins.svg('linkedin')}}</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="team__item">
+					<div class="team__photo" style="background-image: url(images/photo2.jpg);">
+						<div class="hexTop"></div>
+						<div class="hexBottom"></div>
+					</div>
+					<div class="team__name">
+						<span>Tomothy</span> Bowma
+					</div>
+					<div class="team__position">
+						Marketing
+					</div>
+					<ul class="team__social">
+						<li><a class="twitter" href="#">{{mixins.svg('twitter')}}</a></li>
+						<li><a class="facebook" href="#">{{mixins.svg('facebook')}}</a></li>
+						<li><a class="linkedin" href="#">{{mixins.svg('linkedin')}}</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="team__item">
+					<div class="team__photo" style="background-image: url(images/photo3.jpg);">
+						<div class="hexTop"></div>
+						<div class="hexBottom"></div>
+					</div>
+					<div class="team__name">
+						<span>Tomothy</span> Bowma
+					</div>
+					<div class="team__position">
+						Marketing
+					</div>
+					<ul class="team__social">
+						<li><a class="twitter" href="#">{{mixins.svg('twitter')}}</a></li>
+						<li><a class="facebook" href="#">{{mixins.svg('facebook')}}</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+	<a href="#" class="anchor transparent"></a>
+</section>
+<!-- end team -->
+<!-- begin testimonials -->
+<section class="s testimonials">
+	<!-- begin container -->
+	<div class="container">
+		<div class="testimonials__icon hex__icon-border">
+			<div class="hex__icon">
+				<span class="icon quote">
+					{{mixins.svg('quote')}}
+				</span>
+			</div>
+		</div>
+		<div class="testimonials__slider">
+			<!-- begin testimonial__slide -->
+			<div class="testimonial__slide">
+				<!-- begin row -->
+				<div class="row">
+					<div class="col-sm-4 d-flex align-items-center">
+						<div class="section__info">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, quam suscipit! Ad vero voluptatibus eaque explicabo illo excepturi enim voluptas, ducimus recusandae, ut et voluptate doloribus est corporis dolore repellendus!
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="testimonials__photo" style="background-image: url(images/testimonials1.jpg);">
+							<div class="hexTop"></div>
+							<div class="hexBottom"></div>
+						</div>
+					</div>
+					<div class="col-sm-4 d-flex align-items-center">
+						<div class="testimonials__info">
+							<div class="testimonials__name">
+								<span>Alan</span> Richman
+							</div>
+							<div class="testimonials__position">
+								CEO of Romashka
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end row -->
+			</div>
+			<!-- end testimonial__slide -->
+			<!-- begin testimonial__slide -->
+			<div class="testimonial__slide">
+				<!-- begin row -->
+				<div class="row">
+					<div class="col-sm-4 d-flex align-items-center">
+						<div class="section__info">
+							Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свой, последний! Прямо вскоре текст, семантика lorem ему страну мир дорогу пустился предложения послушавшись его, запятой всемогущая рыбного текстов образ?
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="testimonials__photo" style="background-image: url(images/photo2.jpg);">
+							<div class="hexTop"></div>
+							<div class="hexBottom"></div>
+						</div>
+					</div>
+					<div class="col-sm-4 d-flex align-items-center">
+						<div class="testimonials__info">
+							<div class="testimonials__name">
+								<span>John</span> Doe
+							</div>
+							<div class="testimonials__position">
+								CEO
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end row -->
+			</div>
+			<!-- end testimonial__slide -->
+		</div>
+		<div class="testimonials__arrows">
+			<a href="#" class="arrow__prev">{{mixins.svg('arrow')}}</a>
+			<a href="#" class="arrow__next">{{mixins.svg('arrow')}}</a>
+		</div>
+	</div>
+	<!-- end container -->
+</section>
+<!-- end testimonials -->
+<!-- begin map -->
+<section class="s map">
+	<!-- begin container-fluid -->
+	<div class="container-fluid no-padding">
+		<div class="map__adress">
+			<div class="map__text">
+				<div class="map__name">
+					Daisy
+				</div>
+				<p class="section__text">
+					615 4th Ave S, Jacksonville Beach, FL 32250
+				</p>
+			</div>
+		</div>
+		<!-- begin row -->
+		<div class="row gmap">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6848.991997360891!2d12.375138259320515!3d51.33983430816602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f825cc65e15b%3A0x5c93b3c10d11f405!2sCineStar!5e0!3m2!1sru!2sru!4v1518111755660" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container-fluid -->
+</section>
+<!-- end map -->
+<!-- begin footer -->
+<footer class="footer">
+	<!-- begin container -->
+	<div class="container">
+		<!-- begin row -->
+		<div class="row">
+			<a href="#" class="footer__logo"></a>
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+</footer>
+<!-- end footer -->
+{% endblock %}
