@@ -25,6 +25,8 @@ $(window).on('load', function() {
     });
     hideloader(); 
 
+    var z = 30;
+
     tl
       .to(hero, 0.8, {css:{scale: 1}, ease:Quad.easeIn})
       .add(mouse);
